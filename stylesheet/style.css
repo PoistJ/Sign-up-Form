@@ -1,0 +1,12 @@
+#container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.left-container {
+    background-color: grey;
+}
+
+.right-container {
+    background-color: darkgreen;
+}
