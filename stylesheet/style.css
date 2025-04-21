@@ -46,3 +46,11 @@ html, body {
     font-size: 4em;
     margin-left: 6px;
 }
+
+.form-row {
+    display: flex;
+}
+
+.form-row > p {
+
+}
