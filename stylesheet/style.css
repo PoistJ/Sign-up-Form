@@ -6,6 +6,7 @@
 html, body {
     height: 100%;
     margin: 0px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif
 }
 
 #container {
@@ -21,8 +22,14 @@ html, body {
 }
 
 .right-container {
-    width: auto;
-    background-color: #edede9
+    width: 65%;
+    background-color: #edede9;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.caption {
+    padding: 20% 0px 50px 40px;
 }
 
 .logo-backsplash {
@@ -47,10 +54,37 @@ html, body {
     margin-left: 6px;
 }
 
+form {
+    padding: 10px 0px 10px 0px
+}
+
 .form-row {
     display: flex;
 }
 
 .form-row > p {
-
+    margin: 10px 50px 0px 0px;
 }
+
+.formContainer {
+    padding: 20px 20px 20px 40px;
+    background-color: white;
+}
+
+label {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.6em;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    color: #495057;
+}
+
+input {
+    width: 220px;
+}
+
+.account {
+    padding: 30px 0px 0px 40px;
+    font-weight: 100;
+}
+
