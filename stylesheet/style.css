@@ -1,12 +1,11 @@
-#container {
-    width: 100vw;
-    height: 100vh;
+html, body {
+    height: 100%;
 }
 
 .left-container {
-    background-color: grey;
+    background-image: url("images/premium_photo-1682629632657-4ac307921295.avif")
 }
 
 .right-container {
-    background-color: darkgreen;
+    background-color: darkgreen
 }
