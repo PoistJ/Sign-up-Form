@@ -1,11 +1,48 @@
+@font-face {
+    font-family: Germania One;
+    src: url("/fonts/GermaniaOne-Regular.ttf");
+}
+
 html, body {
     height: 100%;
+    margin: 0px;
+}
+
+#container {
+    display: flex;
+    height: 100%; 
+    margin: 0px 0px 0px 0px;
 }
 
 .left-container {
-    background-image: url("images/premium_photo-1682629632657-4ac307921295.avif")
+    background-image: url("/images/pexels-asadphoto-457882.jpg");
+    background-size: auto 100%;
+    width: 35%;
 }
 
 .right-container {
-    background-color: darkgreen
+    width: auto;
+    background-color: #edede9
+}
+
+.logo-backsplash {
+    position: relative;
+    background-color: rgb(0,0,0,0.5);
+    height: 100px;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    max-width: 80%;
+    height: 80%;
+}
+
+.odin {
+    font-family: Germania One;
+    color: white;
+    font-size: 4em;
+    margin-left: 6px;
 }
