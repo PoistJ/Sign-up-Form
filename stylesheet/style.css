@@ -29,7 +29,7 @@ html, body {
 }
 
 .caption {
-    padding: 20% 0px 50px 40px;
+    padding: 20% 150px 50px 40px;
 }
 
 .logo-backsplash {
@@ -69,6 +69,7 @@ form {
 .formContainer {
     padding: 20px 20px 20px 40px;
     background-color: white;
+    box-shadow: 0px 0.2px;
 }
 
 label {
@@ -81,10 +82,52 @@ label {
 
 input {
     width: 220px;
+    border-color: #E5E7EB;
+    border-radius: 4px;
+    padding: 4px;
+    box-shadow: none;
 }
 
 .account {
     padding: 30px 0px 0px 40px;
+}
+
+.existing-acc {
+    font-size: 1em;
     font-weight: 100;
+}
+
+:link {
+    color: #00b4d8;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+:visited {
+    color: #00b4d8;
+}
+
+input[type="password"]:invalid {
+    border-color: #c1121f;
+}
+
+:invalid {
+    border-color: #c1121f;
+}
+
+.account > button {
+    height: 50px;
+    width: 200px;
+    background-color: #00b4d8;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+}
+
+button:hover {
+    border-style: solid;
+    border-color: grey;
 }
 

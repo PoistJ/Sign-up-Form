@@ -24,7 +24,7 @@
             <div class="formContainer">
                 <div>Let's do this!</div>
 
-                <form action="" method="post">
+                <form id="infoForm" action="" method="post">
                     <div class="form-row">
                         <p>
                             <label for="first_name">FIRST NAME</label><br>
@@ -51,12 +51,12 @@
                     <div class="form-row">
                         <p>
                             <label for="password_input">PASSWORD</label><br>
-                            <input type="password" id="password_input">
+                            <input type="password" id="password_input" required>
                         </p>
     
                         <p>
                             <label for="password_confirm">CONFIRM PASSWORD</label><br>
-                            <input type="password" id="password_confirm">
+                            <input type="password" id="password_confirm" required>
                         </p>
                     </div>
                 </form>
@@ -64,9 +64,9 @@
             </div>
             
             <div class="account">
-                <button>Create Account</button>
+                <button type="submit" form="infoForm" value="Submit info">Create Account</button>
                 <br>
-                <br>
+                <br>    
                 <div class="existing-acc">Already have an account? <a href="">Log in</a></div>
             </div>
 
